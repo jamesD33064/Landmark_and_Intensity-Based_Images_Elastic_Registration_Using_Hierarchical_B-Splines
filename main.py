@@ -116,7 +116,7 @@ class HBSRRegistrar:
         self.mi_history.append(cost)
         return cost
 
-    def run(self, pts_f, pts_m, grid_spacings=[48, 32, 16]):
+    def run(self, pts_f, pts_m, grid_spacings=[32, 16, 8]):
         self.spacings = grid_spacings
         print(f"--- 開始配準 (Initial TRE: {np.mean(np.linalg.norm(pts_f - pts_m, axis=1)):.2f} px) ---")
         

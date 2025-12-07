@@ -3,7 +3,7 @@
 [https://rire.insight-journal.org/download_data](https://rire.insight-journal.org/download_data)
 
 `
-python main_gemini.py --mri "./mr_T1/patient_109_mr_T1.mhd" --ct "./ct/patient_109_ct.mhd"
+python main.py --mri "./mr_T1/patient_109_mr_T1.mhd" --ct "./ct/patient_109_ct.mhd"
 `
 
 ## 與論文描述不同的地方：
